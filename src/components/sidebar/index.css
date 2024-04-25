@@ -1,0 +1,25 @@
+.sidebar-container{
+    background-color: #fefaff;
+    background-size: cover;
+    width: 10%;
+}
+.sidebar-container-1{
+    visibility: collapse;
+}
+.arrow-button{
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    margin-left: 25%;
+}
+.user-home-logo-container{
+    display: flex;
+    justify-content: center;
+}
+.user-icons-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #b4b0b5;
+}
+

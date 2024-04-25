@@ -1,0 +1,173 @@
+.header-sidebar-container{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+.header-bg-container{
+    background-color: #09234d;
+    background-size: cover;
+    position: absolute;
+    height: 30vh;
+    width: 95%;
+    margin-left: 5%;
+}
+.header-bg-container-1{
+    background-color: #fafbfc;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 30%;
+}
+.header-heading-main-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.header-heading-container{
+    margin-left: 5%;
+    padding-top: 20px;
+}
+.header-heading{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.header-description{
+    font-size: 10px;
+    font-weight: bold;
+    color: #8a9099;
+}
+.date-container{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    margin-right: 5%;
+}
+.date-time{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+.date-description{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.notify-icon-container{
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.library-card-container{
+    display: flex;
+}
+.card-container{
+    background-color: #ffffff;
+    box-shadow: #808080 0.3px 0.3px 0.3px 0.3px;
+    height: 100px;
+    width: 170px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.library-heading{
+    font-size: 17px;
+}
+.library-para{
+    font-size: 15px;
+    color: #879596;
+}
+.cards-releses-container{
+    display: flex;
+}
+.recent-relecses-container{
+    width: 25%;
+    margin-left: 2%;
+    margin-top: 30px;
+    background-color: #ffffff;
+    box-shadow: #eedddd 1px 1px 1px 1px;
+}
+.recent-heading-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.recent-heading{
+    color: #269cc7;
+    font-size: 20px;
+}
+.select-element{
+    height: 30px;
+
+}
+.verticle-description-container{
+    margin: 10px;
+}
+.description-container{
+    display: flex;
+}
+
+.vr-container{
+    border-left: 2px solid grey;
+    height: 170px;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+.date{
+    color: #269cc7;
+    font-size: 15px;
+    margin: 0px;
+}
+.heading{
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+.paragraph{
+    color: #b3afab;
+    font-size: 15px;
+    padding: 0px;
+    margin: 2px;
+}
+@media (max-width: 767px){
+    .header-bg-container{
+        height: 25vh;
+        margin-left: 10%;
+    }
+    .header-heading{
+        font-size: 12px;
+    }
+    .header-description{
+        font-size: 7px;
+    }
+    .date-description{
+        font-size: 9px;
+    }
+    .notify-icon-container{
+        font-size: 15px;
+    }
+    .card-container{
+        height: 50px;
+        width: 50px;
+        padding: auto;
+        margin: 5px;
+    }
+    .library-heading{
+        font-size: 7px;
+        padding: 0px;
+    }
+    .library-para{
+        font-size: 5px;
+        padding: 0px;
+    }
+    .cards-releses-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .recent-relecses-container{
+        width: 90%;
+        margin-left: 5%;
+    }
+}

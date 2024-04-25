@@ -1,0 +1,58 @@
+.main-slider-button-container{
+    background-color: #ffffff;
+    background-size: cover;
+    width: 70%;
+    box-shadow: #eedddd 1px 1px 1px 1px;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-bottom: 30px;
+}
+.slide-container{
+    padding: 0 10;
+}
+
+.image-details{
+    background-color: #ffffff;
+    background-size: cover;
+    height: 350px;
+    width: 300px;
+    box-shadow: #eedddd 1px 1px 1px 1px;
+    margin: 0 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.card-title{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.card-para{
+    font-size: 15px;
+    color: #b3afab;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.button{
+    height: 40px;
+    width: 90px;
+    background-color: #222222;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+@media (max-width: 767px) {
+    .main-slider-button-container{
+        width: 95%
+    }
+    .image-details{
+        height: 450px;
+        width: 300px;
+    }
+}
